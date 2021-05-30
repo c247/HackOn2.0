@@ -34,7 +34,7 @@ This was built using `Arduino Uno (C++)`, `Python (Flask)`, `HTML5`, `CSS3`, `Ja
 
 2. Install all dependencies (`flask`, `pyserial`, `Arduino IDE`, etc.)
 3. Connect USB from microcontroller to PC and upload Arduino code
-4. Run the Flask application making sure to update the `.env` to correct `PORT`
+4. Run the Flask application making sure to update the `.env` to correct `ARDUINO_PORT`
 
 ### The Team
 Sriram N. V. and Vijay Anantha Padmanabhan are glad to have been able to work on this and hope you like it! ❤
