@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<!-- To be updated in future. Just a test version to show basic functionality... -->
+<head>
+    <title>Arduino SleepTracker</title>
+    <meta charset="utf-8">
+    <meta name="description">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<style>
+    html {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+        font-size: 2rem;
+        color: #fff;
+        background-image: url({{ url_for('static', filename='nightsky.jpeg')}}
+
+    );
+    padding: 1rem 0;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+</style>
+
+<body>
+    {% if data %}
+    <h4>Current sleep status:</h4> <br>
+    <p id="#val">{{ data }} :)</p>
+    {% else %}
+    <p>could not connect! please check the connection again...</p>
+    {% endif %}
+</body>
+<script>
+    setInterval($.ajax({
+        url: '/ret',
+        type: 'POST',
+        success: function (response) {
+            $("#val").html(response);
+        },
+        error: function (error) {
+            console.log(error);
+        }
+    }), 30000);
+
+</script>
+
+</html>
