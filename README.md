@@ -20,5 +20,21 @@ Our aim was to make a hardware solution that could be easy-to-use ((just place i
 This was built using `Arduino Uno (C++)`, `Python (Flask)`, `HTML5`, `CSS3`, `Javascript (jQuery)`, and `Excel` among others. It comes with a dedicated website that shows you the current sleep state and for the more eager user, it also produces a `.csv` file that can be graphed on Excel to collata sensor data. The website currently is just a prototype due to time constraints but we hope to add some better UI/UX design and aesthetics in the future!
 
 
+### Instructions
+1. Recreate the circuit using:
+    1. the Arduino Uno microcontroller
+    2. Modular Breadboard(s)
+    3. Photovoltaic cell
+    4. Flex sensor
+    5. 3mm LEDs
+    6. Buzzer
+    7. Resistors (10kΩ for flex sensor; 330Ω for everything else) 
+    8. and jumper cable 
+    They can be connected as shown in the <a href="https://drive.google.com/drive/folders/1-8gYy0IJmczXpmyNJy44GIxhh6FLYi7Y?usp=sharing" target="_blank">Google Drive link</a>
+
+2. Install all dependencies (`flask`, `pyserial`, `Arduino IDE`, etc.)
+3. Connect USB from microcontroller to PC and upload Arduino code
+4. Run the Flask application making sure to update the `.env` to correct `PORT`
+
 ### The Team
 Sriram N. V. and Vijay Anantha Padmanabhan are glad to have been able to work on this and hope you like it! ❤
