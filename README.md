@@ -5,6 +5,7 @@
 * It detects when the user is inside or outside the room via the **flex sensor** (placed on door so detects accordingly)
 * It also detects when the room is dark (lights off) using the **photovoltaic cell**
 * Using these sensors and some creative logic, it detects when the user is asleep based on a pre-determined sleep time and tracks your sleep
+* Youtube Video: https://youtu.be/_t1lnJx8M5g
 
 
 ### The Vision
