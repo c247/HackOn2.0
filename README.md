@@ -7,7 +7,7 @@
 * Using these sensors and some creative logic, it detects when the user is asleep based on a pre-determined sleep time and tracks your sleep
 * Youtube Video: https://youtu.be/_t1lnJx8M5g
 
-![Sleep Tracker Circuit](https://github.com/nvsriram/HackOn2.0/blob/master/sleeptight.HEIC?raw=true "Sleep Tracker circuit")
+    ![SleepTight Circuit](https://github.com/nvsriram/HackOn2.0/blob/master/sleeptightcircuit.png?raw=true "SleepTight circuit")
 
 ### The Vision
 In today's day-and-age, with the current pandemic circumstances, an electronic gadget is probably more used than some inherent body parts! Why take it to sleep as well?
