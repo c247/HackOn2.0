@@ -1,4 +1,4 @@
-# SleepTight: HackOn2.0 Sleep Tracker Arduino Hardware hack - By Sriram and Vijay
+# SleepTight: HackOn2.0 Sleep Tracker Arduino Hardware hack - By Vijay and Sriram
 <i>An innovative hardware solution to the sleeptracker. Sleep is important for your mental health; but phones are not! :')</i>
 
 * This hardware solution sleep tracker is your go-to as it works without constant need for <i title="nor radiation">interaction</i> as with your smartphone apps
